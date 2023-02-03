@@ -17,7 +17,7 @@ struct ContentView: View {
             Image(systemName: "chevron.left")
                 .font(.largeTitle)
                 .padding()
-//                .rotationEffect(Angle.degrees(270))  // 回転角度の指定
+            //　.rotationEffect(Angle.degrees(270))  // 回転角度の指定
                 .onTapGesture {
                     if number != 0 {
                         number -= 1
@@ -77,7 +77,7 @@ struct ContentView: View {
             Image(systemName: "chevron.right")
                 .font(.largeTitle)
                 .padding()
-//                .rotationEffect(Angle.degrees(90)) // 回転角度の指定
+            //　.rotationEffect(Angle.degrees(90)) // 回転角度の指定
                 .onTapGesture {
                     if number != 2 {
                         number += 1
